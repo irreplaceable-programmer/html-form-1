@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.inputs{
+    flex-direction: column;
+    display: flex;
+    margin-bottom: .8rem;
+}
+.wrapper{
+    box-shadow: rgba(199, 74, 74, 0.1) 0px 0px 5px 0px,
+    rgba(222, 15, 15, 0.1) 0px 0px 1px 0px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.title{
+    margin-bottom: 10px;
+}
+.forgot{
+    font-size: 10px;
+}
+.btn-wrapper{
+    margin-top: .5rem;
+}
+.btn{
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 4px;
+    border-radius: 3px;
+}
+.login{
+    font-size: 12px;
+    margin-top: .5rem;
+}
+input{
+    padding: .7rem;
+}
+.list{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin-top: .5rem;
+}
+.list-item{
+    border: 1px solid grey;
+    padding: 1rem;
+    background-color: white;
+}
+.fa-linkedin{
+    color: aqua;
+}
+.fa-facebook-official{
+    color: blue
+    /* background-color: white; */
+    
+}
+.fa-twitter{
+    color: cornflowerblue;
+    /* background-color: blue; */
+}
