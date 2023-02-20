@@ -1,67 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.parent{
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.parent {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-.inputs{
-    flex-direction: column;
-    display: flex;
-    margin-bottom: .8rem;
+.inputs {
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 0.8rem;
 }
-.wrapper{
-    box-shadow: rgba(199, 74, 74, 0.1) 0px 0px 5px 0px,
-    rgba(222, 15, 15, 0.1) 0px 0px 1px 0px;
-    padding: 1rem;
-    margin: 1rem;
+.wrapper {
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  padding: 1rem;
+  margin: 1rem;
+  margin-top: 5rem;
 }
-.title{
-    margin-bottom: 10px;
+.title {
+  margin-bottom: 15px;
+  cursor: pointer;
 }
-.forgot{
-    font-size: 10px;
+.password-input {
+  position: relative;
 }
-.btn-wrapper{
-    margin-top: .5rem;
+
+.fa-eye {
+  position: absolute;
+  top: 165px;
+  right: 355px;
+  cursor: pointer;
 }
-.btn{
-    color: white;
-    background-color: blue;
-    border: none;
-    padding: 4px;
-    border-radius: 3px;
+.forgot {
+  font-size: 10px;
+  color: blue;
 }
-.login{
-    font-size: 12px;
-    margin-top: .5rem;
+.btn-wrapper {
+  margin-top: 0.5rem;
 }
-input{
-    padding: .7rem;
+.btn {
+  color: white;
+  background-color: blue;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
 }
-.list{
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
-    margin-top: .5rem;
+.login {
+  font-size: 12px;
+  margin-top: 0.5rem;
 }
-.list-item{
-    border: 1px solid grey;
-    padding: 1rem;
-    background-color: white;
+input {
+  padding: 0.7rem;
+  margin-top: 0.5rem;
 }
-.fa-linkedin{
-    color: rgba(10, 189, 189, 0.701);
+.list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin-top: 0.5rem;
 }
-.fa-facebook-official{
-    color: blue
-    /* background-color: white; */
-    
+.list-item {
+  border: 1px solid grey;
+  padding: 1rem;
+  background-color: white;
 }
-.fa-twitter{
-    color: rgb(7, 186, 199);
-    /* background-color: blue; */
+.fa-linkedin-square {
+  color: blue;
+}
+.fa-facebook-official {
+  color: blue;
+  /* background-color: white; */
+}
+.fa-twitter {
+  color: rgb(7, 186, 199);
+  /* background-color: blue; */
+}
+.dont {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.last {
+  list-style: none;
+  color: blue;
+  text-decoration: none;
 }
